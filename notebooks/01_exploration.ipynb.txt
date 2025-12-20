@@ -1,0 +1,19 @@
+import pandas as pd
+from pathlib import Path
+
+DATA_DIR = Path("../data")
+
+movies_path = DATA_DIR / "tmdb_5000_movies.csv"
+credits_path = DATA_DIR / "tmdb_5000_credits.csv"
+
+print("Movies file exists:", movies_path.exists(), movies_path)
+print("Credits file exists:", credits_path.exists(), credits_path)
+
+movies = pd.read_csv(movies_path)
+credits = pd.read_csv(credits_path)
+
+print("movies shape:", movies.shape)
+print("credits shape:", credits.shape)
+
+movies.head(3)
+ 
