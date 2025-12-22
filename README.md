@@ -1,5 +1,5 @@
 ## 🚀 Live Demo
-👉 https://ai-movie-recommender-gws5bivwmsvt58yertykdu.streamlit.app/
+👉 https://ai-movie-recommender-ali.streamlit.app
 
 ---
 
