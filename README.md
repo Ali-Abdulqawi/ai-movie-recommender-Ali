@@ -1,9 +1,12 @@
+
 ## 🚀 Live Demo
 👉 https://ai-movie-recommender-ali.streamlit.app
 
 ---
 
+=======
 # 🎬 Movie Recommendation System (Content-Based)
+
 
 A simple **content-based movie recommender** built with **Python + scikit-learn** and deployed as a **Streamlit web app**.  
 It recommends movies based on textual similarity using **TF-IDF** and **cosine similarity** (TMDB 5000 dataset).
